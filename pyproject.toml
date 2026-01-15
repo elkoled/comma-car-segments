@@ -1,0 +1,18 @@
+[project]
+name = "comma-car-segments"
+version = "0.1.0"
+description = "Helpers for accessing the commaCarSegments dataset"
+license = "MIT"
+authors = [{ name = "Vehicle Researcher", email = "user@comma.ai" }]
+readme = "README.md"
+requires-python = ">=3.11"
+
+urls = { "homepage" = "https://huggingface.co/datasets/commaai/commaCarSegments" }
+
+dependencies = [
+  "requests",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
